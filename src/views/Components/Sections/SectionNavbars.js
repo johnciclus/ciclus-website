@@ -19,7 +19,7 @@ import CustomDropdown from "components/CustomDropdown/CustomDropdown.js";
 import Button from "components/CustomButtons/Button.js";
 
 import image from "assets/img/bg.jpg";
-import profileImage from "assets/img/faces/avatar.jpg";
+//import profileImage from "assets/img/faces/avatar.jpg";
 
 import styles from "assets/jss/material-kit-react/views/componentsSections/navbarsStyle.js";
 
@@ -299,7 +299,7 @@ export default function SectionNavbars() {
                     <Email className={classes.icons} />
                   </Button>
                 </ListItem>
-                <ListItem className={classes.listItem}>
+                {/*<ListItem className={classes.listItem}>
                   <CustomDropdown
                     left
                     caret={false}
@@ -324,6 +324,7 @@ export default function SectionNavbars() {
                     ]}
                   />
                 </ListItem>
+                  */}
               </List>
             }
           />

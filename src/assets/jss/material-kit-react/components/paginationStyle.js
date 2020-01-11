@@ -118,7 +118,7 @@ const paginationStyle = {
   },
   disabled: {
     "&,&:hover,&:focus": {
-      color: "#777",
+      color: "#555",
       cursor: "not-allowed",
       backgroundColor: "#fff",
       borderColor: "#ddd"

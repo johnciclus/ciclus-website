@@ -30,10 +30,10 @@ const typographyStyle = {
     display: "block",
     fontSize: "80%",
     lineHeight: "1.42857143",
-    color: "#777"
+    color: "#555"
   },
   mutedText: {
-    color: "#777"
+    color: "#555"
   },
   primaryText: {
     color: primaryColor
@@ -54,7 +54,7 @@ const typographyStyle = {
     fontSize: "65%",
     fontWeight: "400",
     lineHeight: "1",
-    color: "#777"
+    color: "#555"
   }
 };
 

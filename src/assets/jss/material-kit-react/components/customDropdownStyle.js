@@ -151,7 +151,7 @@ const customDropdownStyle = theme => ({
     padding: "0.1875rem 1.25rem",
     fontSize: "0.75rem",
     lineHeight: "1.428571",
-    color: "#777",
+    color: "#555",
     whiteSpace: "nowrap",
     fontWeight: "inherit",
     marginTop: "10px",
