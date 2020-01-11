@@ -26,6 +26,28 @@ export default function HeaderLinks(props) {
   const classes = useStyles();
   return (
     <List className={classes.list}>
+      <ListItem className={classes.listItem}>
+        <Button
+          href="/"
+          color="transparent"
+          target="_self"
+          className={classes.navLink}
+        >
+          <People className={classes.icons} /> Home
+        </Button>
+      </ListItem>
+
+      <ListItem className={classes.listItem}>
+        <Button
+          href="/people"
+          color="transparent"
+          target="_self"
+          className={classes.navLink}
+        >
+          <People className={classes.icons} /> People
+        </Button>
+      </ListItem>
+
       {/*<ListItem className={classes.listItem}>
         <Button
           href="/projects"
@@ -36,16 +58,7 @@ export default function HeaderLinks(props) {
           <Apps className={classes.icons} /> Projects
         </Button>
       </ListItem>
-      <ListItem className={classes.listItem}>
-        <Button
-          href="/people"
-          color="transparent"
-          target="_blank"
-          className={classes.navLink}
-        >
-          <People className={classes.icons} /> People
-        </Button>
-      </ListItem>
+      
        <ListItem className={classes.listItem}>
         {/*<Tooltip title="Delete">
           <IconButton aria-label="Delete">
