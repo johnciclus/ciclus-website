@@ -10,6 +10,7 @@ import "assets/scss/material-kit-react.scss?v=1.8.0";
 import Components from "views/Components/Components.js";
 import LoginPage from "views/LoginPage/LoginPage.js";
 import People from "views/People/People.js";
+import John from "views/John/John.js";
 import Projects from "views/Projects/Projects.js";
 import Home from "views/Home/Home.js";
 
@@ -21,6 +22,7 @@ ReactDOM.render(
       <Route path="/login-page" component={LoginPage} />
       <Route path="/components" component={Components} />
       <Route path="/projects" component={Projects} />
+      <Route path="/john" component={John} />
       <Route path="/people" component={People} />
       <Route path="/" component={Home} />
     </Switch>
