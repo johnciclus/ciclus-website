@@ -12,7 +12,7 @@ import ListItem from "@material-ui/core/ListItem";
 import Tooltip from "@material-ui/core/Tooltip";
 
 // @material-ui/icons
-import { Apps, CloudDownload, People } from "@material-ui/icons";
+import { Apps, CloudDownload, People, Home } from "@material-ui/icons";
 
 // core components
 import CustomDropdown from "components/CustomDropdown/CustomDropdown.js";
@@ -33,7 +33,7 @@ export default function HeaderLinks(props) {
           target="_self"
           className={classes.navLink}
         >
-          <People className={classes.icons} /> Home
+          <Home className={classes.icons} /> Home
         </Button>
       </ListItem>
 
