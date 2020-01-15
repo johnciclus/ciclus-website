@@ -1,0 +1,15 @@
+{
+    "production": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-ciclus-website-production-114249-authRole",
+            "UnauthRoleArn": "arn:aws:iam::104377958972:role/amplify-ciclus-website-production-114249-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::104377958972:role/amplify-ciclus-website-production-114249-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "amplify-ciclus-website-production-114249-deployment",
+            "UnauthRoleName": "amplify-ciclus-website-production-114249-unauthRole",
+            "StackName": "amplify-ciclus-website-production-114249",
+            "StackId": "arn:aws:cloudformation:us-east-2:104377958972:stack/amplify-ciclus-website-production-114249/1306f4e0-37b6-11ea-aa8a-0672668ff2ce",
+            "AmplifyAppId": "d2cfiyjkuos4dh"
+        }
+    }
+}
