@@ -1,0 +1,34 @@
+{
+    "paths": [
+        {
+            "name": "/notification",
+            "lambdaFunction": "ciclusNotification",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "api",
+    "apiName": "api",
+    "functionArns": [
+        {
+            "lambdaFunction": "ciclusNotification"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-ciclus-website-production-114249-authRole",
+        "unAuthRoleName": "amplify-ciclus-website-production-114249-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "ciclusNotification",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
